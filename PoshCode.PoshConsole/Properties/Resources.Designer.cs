@@ -19,7 +19,7 @@ namespace PoshCode.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -62,7 +62,7 @@ namespace PoshCode.Properties {
         
         /// <summary>
         ///   Looks up a localized string similar to function global:prompt {
-        ///   # FIRST, make a note if there was an error in the previous command
+        ///   # FIRST, make a note if there was an error in the previous pipeline
         ///   $err = !$?
         ///
         ///   # Make sure Windows and .Net know where we are (they can only handle the FileSystem)
@@ -73,8 +73,7 @@ namespace PoshCode.Properties {
         ///
         ///   # Generate PUSHD(push-location) Stack level string
         ///   $Stack = &quot;+&quot; * (Get-Location -Stack).count
-        ///   
-        /// [rest of string was truncated]&quot;;.
+        ///           /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Prompt {
             get {
